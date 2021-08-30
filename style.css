@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+nav {
+  background: rgb(94, 6, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(94, 6, 163, 0.9279061966583508) 9%,
+    rgba(159, 104, 214, 1) 60%,
+    rgba(71, 46, 111, 0.8522759445575105) 94%
+  );
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.contact {
+  font-size: 20px;
+}
+
+li {
+  /* padding: 10px 10px; */
+
+  margin-left: 40px;
+}
+
+.logo {
+  margin-left: 40px;
+  font-family: "Audiowide", cursive;
+  font-family: "Rampart One", cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.contact {
+  display: flex;
+  margin-right: 40px;
+  align-self: center;
+  justify-content: flex-end;
+
+  /* width: 100%; */
+}
+a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 1000px;
+  width: auto;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.671),
+      rgba(255, 255, 255, 0.637)
+    ),
+    url("https://t4.ftcdn.net/jpg/03/11/08/33/240_F_311083351_a2m3uTc1NQ9viLaxR4OdamM5kfsTH0Ni.jpg");
+}
+
+.cricket,
+.bolly,
+.science {
+  align-self: center;
+  height: 300px;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.cricket {
+  position: relative;
+  background-image: url("https://us.123rf.com/450wm/vectomart/vectomart1704/vectomart170400057/76150068-batsman-and-bowler-playing-cricket-championship-sports-.jpg?ver=6");
+  background-size: 100% 100%;
+}
+
+.bolly {
+  position: relative;
+  background-image: url("https://thisisitbase.com/wp-content/uploads/2021/05/Full-HD-Bollywood-Movies-Download-1080p.jpg");
+  background-size: 100% 100%;
+}
+
+.science {
+  position: relative;
+  background-image: url("https://t4.ftcdn.net/jpg/02/50/84/33/360_F_250843375_IKJqsr2QNT4oZJRBl63k8y2Mtx2fwpa4.jpg");
+  background-size: 100% 100%;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #c02425 0%,
+    #f0cb35 51%,
+    #c02425 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(29, 22, 22);
+  box-shadow: 0 0 20px rgb(61, 54, 54);
+  border-radius: 15px;
+  display: block;
+  font-weight: bold;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook-square {
+  color: rgb(39, 26, 179);
+}
+
+.fa-instagram {
+  color: rgba(219, 22, 22, 0.932);
+}
+
+.fa-twitter {
+  color: rgb(8, 208, 243);
+}
+
+.fa-heart {
+  color: red;
+}
+
+.ac {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  background-color: rgba(183, 236, 204, 0.664);
+}
+
+.aboutus,
+.contactus {
+  width: 500px;
+  height: 200px;
+  overflow: auto;
+  text-align: center;
+  align-self: center;
+}
+
+.emd {
+  display: flex;
+
+  align-self: center;
+}
+
+.cric-quiz,
+.bolly-quiz,
+.science-quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 0.5px;
+  font-weight: 550;
+}
+
+.science-quiz {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.637),
+      rgba(255, 255, 255, 0.705)
+    ),
+    url("https://img.freepik.com/free-vector/science-education-background_23-2148486901.jpg?size=626&ext=jpg");
+}
+.bolly-quiz {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.575),
+      rgba(255, 255, 255, 0.74)
+    ),
+    url("https://wallpaperaccess.com/full/1850615.jpg");
+}
+
+.cric-quiz {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.644),
+      rgba(255, 255, 255, 0.575)
+    ),
+    url("https://wallpapercave.com/wp/wp1809749.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+ul.easy,
+ul.medium,
+ul.difficult {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+
+  font-size: large;
+  border: 2px solid black;
+  margin-top: 40px;
+  height: 400px;
+  width: 800px;
+  border-radius: 30px;
+}
+
+ul.easy {
+  background-color: rgba(183, 238, 175, 0.801);
+  border-color: rgb(11, 117, 10);
+}
+
+ul.medium {
+  background-color: rgba(187, 232, 240, 0.733);
+  border-color: rgba(41, 187, 224, 0.788);
+}
+
+ul.difficult {
+  background: rgba(221, 184, 184, 0.699);
+  border-color: red;
+}
+/* tooltip */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 30%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+}
+footer {
+  background-color: rgb(198, 149, 236);
+
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+.emd {
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
